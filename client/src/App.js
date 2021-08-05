@@ -16,7 +16,7 @@ function App() {
       const result = await readTodos();
       setTodos(result);
     }
-
+    console.log('hello')
     fetchData()
   }, [currentId]);
   const clear = ()=>{
